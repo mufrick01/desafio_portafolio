@@ -1,0 +1,51 @@
+body {
+    color: #153155;
+}
+
+
+
+h1,
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    color: #3c87b5;
+    font-weight: 700;
+}
+
+
+
+
+.color-dark-blue {
+    color: #153155;
+}
+
+.btn-custom {
+    
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.bg-dark-blue {
+    background-color: #153155;
+}
+
+.active {
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 992px) {
+
+
+    h1,
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}

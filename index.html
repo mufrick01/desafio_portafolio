@@ -1,12 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-    <h1 class="bg-dark">Hola</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top " data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><h2 class="color-dark-blue fw-bold">PeterParker</h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active color-dark-blue" aria-current="page" href="#presentacion">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-dark-blue" href="#habilidades">Mis habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-dark-blue" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-dark-blue" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <section class="presentacion row" id="presentacion">
+            <img class="col-12 col-lg-6" src="./assets/img/developer.svg" alt="">
+            <div class="col-12 col-lg-6 row">
+                <div class="my-auto">
+                    <h2 class="d-inline-block fw-bold">Soy</h2>
+                    <h1 class="d-inline-block fw-bold">PeterParker</h1>
+                    <h3>Desarrollador FrontEnd</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias voluptatem error earum
+                        nobis
+                        voluptatibus, magni, dolor minima nostrum necessitatibus fugiat, itaque doloribus! Facilis
+                        ratione
+                        necessitatibus quis vero. Cum, iure.</p>
+                    <button class="bg-dark-blue text-white btn-custom">Contactame</button>
+                </div>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2 class="text-center fw-bold my-5">Habilidades</h2>
+            <div class="habilidades__iconos row">
+
+                <div class="col-12 col-lg-6 row skilsbox p-3">
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-html5 fa-2x text-center w-100" style="color: #dc4923;"></i>
+                        <p class="text-center">HTML</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-css3 fa-2x text-center w-100" style="color: #3699d5;"></i>
+                        <p class="text-center">CSS</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-sass fa-2x text-center w-100" style="color: #d072a0;"></i>
+                        <p class="text-center">Sass</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-bootstrap fa-2x text-center w-100" style="color: #523a77;"></i>
+                        <p class="text-center">Bootstrap</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-6 row skilsbox p-3">
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-git fa-2x text-center w-100" style="color: #f05030;"></i>
+                        <p class="text-center">Git</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-github fa-2x text-center w-100" style="color: #212529;"></i>
+                        <p class="text-center">Github</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-js fa-2x text-center w-100" style="color: #e8d44d;"></i>
+                        <p class="text-center">JavaScript</p>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <i class="fa-brands fa-vuejs fa-2x text-center w-100" style="color: #3eb284;"></i>
+                        <p class="text-center">Vue</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <section id="proyectos">
+            <h2 class="text-center fw-bold my-5">Proyectos</h2>
+            <div class="row">
+                <div class="col-6 col-lg-3 ">
+                    <img src="./assets/img/meetcoffee.png" class="w-100" alt="...">
+                    <h6 class="text-start fw-bolder">Meet & Coffee</h6>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                    <img src="./assets/img/meetcoffee.png" class="w-100" alt="...">
+                    <h6 class="text-start fw-bolder">Meet & Coffee</h6>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                    <img src="./assets/img/meetcoffee.png" class="w-100" alt="...">
+                    <h6 class="text-start fw-bolder">Meet & Coffee</h6>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                    <img src="./assets/img/meetcoffee.png" class="w-100" alt="...">
+                    <h6 class="text-start fw-bolder">Meet & Coffee</h6>
+                </div>
+            </div>
+
+        </section>
+        <section id="contacto">
+            <h2 class="text-center fw-bold my-5">Contacto</h2>
+            <div class="row">
+                <div class="col-12 col-lg-6 row mx-auto">
+                    <div class="mb-3 col-6">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3 col-6">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellidos">
+                    </div>
+                    <div class="mb-3 col-12">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu Email">
+                    </div>
+                    <div class="mb-3 col-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aqui."></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-custom bg-dark-blue text-white w-100">Enviar</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 my-5 my-lg-auto mx-auto mx-lg-0">
+                    <div class="info-contacto">
+                        <i class="fa-solid fa-phone d-inline"></i>
+                        <h5 class="d-inline-block">+56987654321</h4>
+                    </div>
+                    <div class="info-contacto">
+                        <i class="fa-solid fa-envelope d-inline"></i>
+                        <h5 class="d-inline-block">contacto@email.com</h4>
+                    </div>
+                    <div class="info-contacto">
+                        <i class="fa-brands fa-linkedin d-inline"></i>                        
+                        <h5 class="d-inline-block">tuLinkedin</h4>
+                    </div>
+                    <div class="info-contacto">
+                        <i class="fa-brands fa-github d-inline"></i>                        
+                        <h5 class="d-inline-block">tuGithub</h4>
+                    </div>
+                    <div class="info-contacto">
+                        <i class="fa-brands fa-instagram d-inline"></i>                        
+                        <h5 class="d-inline-block">tuInstagram</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </body>
+
 </html>
